@@ -1,0 +1,48 @@
+table{
+  width: 100;
+  border-collapse: collapse;
+  margin: 20px 0;
+  font-family: Arial, sans-serif;
+}
+
+/*Estilo para el encabezado de la tabla*/
+thead th{
+  background-color: #2c3e50;
+  color: #ecf0f1;
+  padding: 12px;
+  font-size: 16px;
+  text-align: left;
+  border: 1px solid #34495e;
+}
+
+/*Estilos de renglones*/
+.style1 {
+  background-color: #ecf0f1;
+  color:#2c3e50;
+  padding: 10px;
+  border: 1px solid #bdc3c7;
+}
+.style2 {
+  background-color: #bdc3c7;
+  color: #2c3e50;
+  padding 10px;
+  border: 1px solid #7f8c8d;
+}
+.style3 {
+  background-color: #95a5a6;
+  color: #ecf0f1;
+  padding: 10px;
+  border: 1px solid #7f8c8d;
+}
+
+/*Estilo general de celdas*/
+td{
+  padding: 10px;
+  border: 1px solid #bdc3c7;
+}
+
+/*Efecto de encabezado*/
+tbody tr:hover{
+  background-color:#34495e;
+  color:#ecf0f1;
+} 

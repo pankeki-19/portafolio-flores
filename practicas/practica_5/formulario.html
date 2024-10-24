@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario con Tabla</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header> 
+        <h1>Formulario con Tabla</h1>
+        <nav>
+          <ul>
+            <li><a href="../../landingPage.html">Inicio</a></li>
+          </ul>
+        </nav>
+      </header>
+    <form id="formulario">
+        <label for="textInput">Nombre:</label>
+        <input type="text" id="textInput" name="textInput"><br><br>
+
+        <label for="emailInput">Correo electrónico:</label>
+        <input type="email" id="emailInput" name="emailInput"><br><br>
+
+        <label>Animales Favoritos (selecciona al menos una):</label><br>
+        <input type="checkbox" id="check1" name="checkboxGroup" value="Opción 1"> Gatos<br>
+        <input type="checkbox" id="check2" name="checkboxGroup" value="Opción 2"> Perros<br>
+        <input type="checkbox" id="check3" name="checkboxGroup" value="Opción 3"> Osos<br><br>
+
+        <label>¿Español o Inglés? (seleccione una):</label><br>
+        <input type="radio" id="radio1" name="radioGroup" value="Español"> Español<br>
+        <input type="radio" id="radio2" name="radioGroup" value="Inglés"> Inglés<br>
+        <input type="radio" id="radio3" name="radioGroup" value="Entendí la referencia"> Entendí la referencia<br><br>
+
+        <label for="dateTime">Fecha y Hora:</label>
+        <input type="datetime-local" id="dateTime" name="dateTime"><br><br>
+
+        <label for="colorInput">Color:</label>
+        <input type="color" id="colorInput" name="colorInput"><br><br>
+
+        <label for="rangeInput">Rango:</label>
+        <input type="range" id="rangeInput" name="rangeInput" min="0" max="100"><br><br>
+
+        <button type="button" onclick="agregarFila()">Agregar a la Tabla</button>
+    </form>
+
+    <table id="tabla">
+        <thead>
+            <tr>
+                <th>Texto</th>
+                <th>Email</th>
+                <th>Checkbox</th>
+                <th>Radio</th>
+                <th>Fecha y Hora</th>
+                <th>Color</th>
+                <th>Rango</th>
+            </tr>
+        </thead>
+        <tbody>
+        </tbody>
+    </table>
+
+    <script src="script.js"></script>
+</body>
+</html>
+

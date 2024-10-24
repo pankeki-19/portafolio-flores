@@ -1,0 +1,48 @@
+/* General table styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+}
+
+/* Table header styling */
+thead th {
+    background-color: #f5f5dc; /* Light beige background */
+    color: #000; /* Black text */
+    padding: 8px;
+    font-size: 14px;
+    text-align: center;
+    border: 1px solid #dcdcdc; /* Light gray border */
+}
+
+/* Alternating row styles */
+tbody tr:nth-child(odd) {
+    background-color: #dceefc; /* Light blue background for odd rows */
+}
+
+tbody tr:nth-child(even) {
+    background-color: #ffffff; /* White background for even rows */
+}
+
+/* General cell styling */
+td {
+    padding: 8px;
+    text-align: center;
+    border: 1px solid #dcdcdc; /* Light gray border */
+    font-size: 14px;
+}
+
+/* Style for numeric columns to align decimal points (optional) */
+td, th {
+    text-align: right;
+}
+
+/* Ensure the table fits nicely on different screen sizes */
+table {
+    width: auto;
+    max-width: 100%;
+    margin: 0 auto;
+}
+

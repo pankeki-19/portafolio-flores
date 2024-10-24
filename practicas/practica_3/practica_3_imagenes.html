@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galería de Imágenes</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            min-height: 100vh;
+            margin: 0;
+            padding: 20px;
+            box-sizing: border-box;
+            background-color: #f4f4f4;
+        }
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .container img {
+            width: 250px;
+            height: 150px;
+            object-fit: border;
+            border: 2px solid #ccc;
+        }
+        .link-container{
+          margin-bottom: 30px;
+          text-align: center;
+        }
+        .link-container a{
+          text-decoration: none;
+          color: #007bff;
+          font-weight: bold;
+        }
+        .link-container a:hover{
+          text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+        <div class="link-container">
+          <p><a href="practica_3.html">Tabla de osos</a></p>
+            <p><a href="practica_3_tabla_2.html">Tabla con formato CSS</a></p>
+            <a href="index.html">Índice de practicas</a>
+        </div>
+        <img src="https://th-thumbnailer.cdn-si-edu.com/tweX68LQrE6aY4X0tzmF_gSfiYw=/800x600/filters:focal(4381x2523:4382x2524)/https://tf-cmsv2-smithsonianmag-media.s3.amazonaws.com/filer_public/e0/58/e058c2c2-b1d9-491c-abf5-973844b211a0/gettyimages-171399380.jpg" alt="Imagen 1">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Red_Panda_%2824986761703%29.jpg/800px-Red_Panda_%2824986761703%29.jpg" alt="Imagen 2">
+        <img src="https://dehayf5mhw1h7.cloudfront.net/wp-content/uploads/sites/1491/2024/03/28175155/Red-Panda-FI.png" alt="Imagen 3">
+    </div>
+</body>
+</html>

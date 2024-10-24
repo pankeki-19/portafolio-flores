@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Osos Kodiak</title>
+    <!--Link al estilo de fuente-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lora:wght@400;700&family=Roboto:wght@400;700&display=swap">
+    <style>
+      /*Aplicamos las fuentes al cuerpo y los headers*/
+      body{
+        font-family: 'Roboto', sans-serif;
+        background-color:#f4f4f9;
+        color:#333;
+        line-height: 1.6;
+        margin:20px;
+        padding:0;
+      }
+      h1, h2, h3, h4, h5, h6{
+        font-family: 'Lora', serif;
+        color:#2c3e50;
+      }
+      h1{
+        font-size: 2.5em;
+        margin-bottom: 20px;
+        color: #3498db;
+      }
+      h2{
+        font-size: 2em;
+        margin-bottom: 15px;
+        color:#2980b9;
+      }
+      h3{
+        font-size: 1.75em;
+        margin-bottom: 10px;
+        color:#8e44ad;
+      }
+      h4{
+        font-size:1.5em;
+        margin-bottom:10px;
+        color: #e67e22;
+      }
+      h5{
+        font-size:1.25em;
+        margin-bottom:8px;
+        color:#d35400;
+      }
+      h6{
+        font-size: 1em;
+        margin-bottom:5px;
+        color:#c0392b;
+      }
+      p{
+        margin-bottom: 20px;
+      }
+      ol{
+        padding-left: 60px;
+        margin-bottom: 20px;
+      }
+      ul,dl {
+        margin-bottom: 20px;
+      }
+      /* Estilizacion adicional para el mapa*/
+      .map-container{
+        text-align: center;
+        border-radius: 20px 0;
+      }
+      iframe{
+        border:2px solid #ccc;
+        border-radius: 8px;
+      }
+      form{
+        background-color: #ecf0f1;
+        padding:20px;
+        border-radius: 8px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+      }
+      label{
+        font-weight: bold;
+        margin-top: 10px;
+        display: block;
+      }
+      input[type="text"],
+      input[type="password"],
+      input[type="number"],
+      input[type="date"],
+      input[type="emial"],
+      input[type="file"],
+      input[type="color"],
+      input[type="range"]{
+        width: 100%;
+        padding: 10px;
+        margin-top: 5px;
+        margin-bottom: 15px;
+        border: 1px solid #bdc3c7;
+        border-radius: 5px;
+        box-sizing: border-box;
+      }
+      input[type="submit"]{
+        background-color: #3498db;
+        color:#fff;
+        padding: 10px 15px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+      input[type="submit"]:hover{
+        background-color:#2980b9;
+      }
+      /*Estilo de imagenes*/
+      .image-container{
+        text-align: center;
+        margin-bottom: 20px;
+      }
+      img{
+        max-width: 100%;
+        height: auto;
+        border-radius: 8px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+      }
+    </style>
+    <link href="css/style.css" rel="stylesheet">
+  </head>
+  <body>
+    <!-- Se añadió después de entregar la práctica para el portafolio -->
+    <header> 
+      <nav>
+        <ul>
+          <li><a href="../landingPage.html">Inicio</a></li>
+        </ul>
+      </nav>
+    </header>
+
+
+    <!--Aqui van los headers de h1 a h6-->
+    <h1> Introduccion a los osos Kodiak <h1/>
+        <div class="image-container">
+          <img src="https://bear.org/wp-content/uploads/2023/03/large_brown_bear.jpg" alt="Kodiak-Bear">
+        </div>
+        <p>El oso Kodiak, tambien conocido como el oso pardo de Alaska</p>
+        <p>Es una subespecie de oso pardo nativos del achipelago de Kodiak en Alaska.</p>
+        <p>Conocidos por su enorme tamaño, los osos Kodiak son unos de los osos más grandes del mundo.</p>
+    <h2> Overview <h2/>
+        <p>Los osos Kodiak son criaturas fasinantes con una gran historia y un rol crítico en su ecosistema.</p>
+        <p>Esta sección proporciona una vista rapida de sus características, hábitat, y su importancia en la naturaleza.</p>
+    <h3> Hábitat <h3/>
+        <p>El archipelago Kodiak, ubicado en el golfo de Alaska, es la casa exclusiva del oso Kodiak.</p>
+        <p>Las islas aisladas de la region permitieron que la población de estos osos desarrollara características únicas sitintas de los osos pardos.</p>
+        <p>Estos osos prosperan en bosques densos, prados, y montañas escarpadas.</p>
+    <h4> Ubicacion <h4/>
+        <!--Minimap para mejor diseño-->
+        <p>El oso Kodiak unicamente vive en el archipelago con el mismo nombre.</p>
+        <p>El grupo de islas incluye:</p>
+        <li>Isla Kodiak</li>
+        <li>Isla Afognak</li>
+        <li>Isla Shuyak</li>
+        <p>Estas islas proveen un rango diverso de hábitats, desde las areas costeras hasta entornos alpinos,</p>
+        <p>permitiendo una gran biodiversidad que sustentabilisa la población de osos Kodiak.</p>
+        <div>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1953766.4812873455!2d-154.92095031706704!3d57.70840275568908!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x57f27d8c1a89ed7b%3A0xa53f4d7ff8fb5b35!2sKodiak%2C%20AK%2C%20USA!5e0!3m2!1sen!2s!4v1617351576415!5m2!1sen!2s"
+            width="400"
+            height="300"
+            style="border:0;"
+            allowfullscreen=""
+            loading="lazy"></iframe>
+        </div>
+    <h5> Dieta <h5/>
+        <div class="image-container">
+          <img src="https://qph.cf2.quoracdn.net/main-qimg-49b007a54554e0ea2ff0bf938a5fc6cc-lq" alt="Oso-Kodiak-Dieta">
+        </div>
+        <p>La dieta de un oso Kodiak es variada y cambia con las temporadas.</p>
+        <p>Durante el verano, se alimentan principalmente de salmón, los cuales son abundantes en los ríos y arroyos.</p>
+        <p>En otoño, consumen una gran cantidad de moras y otra vegetación para acumular grasa para la hibernación.</p>
+        <p>Durante el año, también pueden cazar pequeños mamiferos y buscar comida.</p>
+    <h6> Comportamiento <h6/>
+        <div class="image-container">
+          <img src="https://images.squarespace-cdn.com/content/v1/6519b2ceca4ef541967a8651/e67fee59-a8f7-48d4-8b5b-df28ea35e9b1/099A1029.JPG" alt="Oso-Kodiak-Comportamiento">
+        </div>
+        <p>Los osos Kodiak normalmente son animales solitarios, excepto durante la temporada de apariamiento o cuando las fuentes de alimento estan concentradas, como en las "salmon runs".</p>
+        <p>Son conocidos por su inteligencia, curiosidad, y adaptabilidad.</p>
+        <p>A pesar de su tamaño, son capaces de correr a velocidades de hasta 30 millas por hora y son grandes nadadores. </p>
+
+    <!--Lista ordenada con 10 elementos-->
+    <h2>Top 10 datos sobre el oso Kodiak<h2/>
+    <ol>
+      <li>El oso Koadiak es la subespecie más grande de osos pardos.</li>
+      <li>Son nativos del archipelago Kodiak en Alaska.</li>
+      <li>Un adulto macho puede pesar hasta 1,500lbs.</li>
+      <li>Tienen una esperanza de vida de 20 a 25 años en la naturaleza.</li>
+      <li>Los osos Kodiak tienen un abrigo denso y grueso que los ayuda a sobrevivir los climas duros.</li>
+      <li>Son omnivoros, con una dieta que incluye pezcado, moras, y plantas.</li>
+      <li>Los osos Kodiak hibernan de 6 a 8 meses durante el invierno.</li>
+      <li>Son animales solitarios, excepto durante la temporada de apariamiento o cuando la comida es abundante.</li>
+      <li>Los osos Kodiak tienen un buen sentido del olfato, el cual usan para encontrar comida.</li>
+      <li>Tienen una población estimada de alrededor de 3,500 individuos.</li>
+    <ol/>
+
+    <!--Lista desordenada de 10 elementos-->
+    <h2>La dieta del Oso Kodiak</h2>
+    <ul>
+      <li>Salmón</li>
+      <li>Moras</li>
+      <li>Raices</li>
+      <li>Pequeños mamiferos</li>
+      <li>Insectos</li>
+      <li>Vegetación</li>
+      <li>Huevos de aves</li>
+      <li>Almejas</li>
+      <li>Caribú</li>
+      <li>Pastura</li>
+    </ul>
+
+    <!--Lista descriptiva con 5  elementos-->
+    <h2>Características de los osos Kodiak</h2>
+    <dl>
+      <dt>Tamaño</dt>
+      <dd>Los osos Kodiak pueden medir hasta 10ft parados en sus patas traseras.</dd>
+      <dt>Color</dt>
+      <dd>Su pelo va desde un café claro a un café oscuro.</dd>
+      <dt>Velocidad</dt>
+      <dd>Pueden correr hasta 30 millas por hora.</dd>
+      <dt>Hibernación</dt>
+      <dd>Los osos Koadiak hibernan en sus guaridas durante los meses de invierno</dd>
+      <dt>Población</dt>
+      <dd>La población es estable, con alrededor de 3,500 osos en la naturaleza.</dd>
+    </dl>
+    <!--Formulario con campos especificos-->
+    <h2>Contacto para más información</h2>
+    <form action="/submit" method="POST">
+      <label for="nombre">Nombre:</label>
+      <input type="text" id="nombre" name="nombre" required><br>
+
+      <label for="apellido">Apellido Paterno:</label>
+      <input type="text" id="apellido" name="apellido" required><br>
+
+      <label for="password">Contraseña:</label>
+      <input type="password" id="password" name="password" required><br>
+
+
+      <label for="ciudad">Ciudad:</label>
+      <input type="text" id="ciudad" name="ciudad"><br>
+
+      <label for="edad">Edad:</label>
+      <input type="number" id="edad" name="edad" min="1" max="150"><br>
+
+      <label for="cum">Cumpleaños:</label>
+      <input type="date" id="cum" name="cum"><br>
+
+      <label>Selecciona tus caracteristicas preferidas de los osos Kodiak:</label>
+      <input type="checkbox" id="size" name="caracteristica" value="Size">
+      <label for="size">Tamaño</label><br>
+      <input type="checkbox" id="fuerza" name="caracteristica" value="Fuerza">
+      <label for="fuerza">Fuerza</label><br>
+      <input type="checkbox" id="velocidad" name="caracteristica" value="Velocidad">
+      <label for="velocidad">Velocidad</label><br>
+      <input type="checkbox" id="pelo" name="caracteristica" value="Pelo">
+      <label for="pelo">Pelaje</label><br>
+
+
+      <label>Selecciona su oso Koadiak preferido:</label><br>
+      <input type="radio" id="adulto" name="oso" value="Adulto">
+      <label for="adulto">Adulto</label><br>
+      <input type="radio" id="cachorro" name="oso" value="Cachorro">
+      <label for="cachorro">Cachorro</label><br>
+      <input type="radio" id="hembra" name="oso" value="Hembra">
+      <label for="hembra">Hembra</label><br>
+      <input type="radio" id="macho" name="oso" value="Macho">
+      <label for="macho">Macho</label><br>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required><br>
+
+      <label for="file">Sube una foto:</label>
+      <input type="file" id="file" name="file"><br>
+
+      <label for="color">Escoge tu color favorito:</label>
+      <input type="color" id="color" name="color"><br>
+
+      <label for="range">Selecciona que tanto te interesan los osos Kodiak</label>
+      <input type="range" id="range" name="range" min="0" max="100"><br>
+
+      <input type="submit" value="Submit">
+    </form>
+    <!-- Añadido despues de entrega -->
+    <footer>
+      <p>&copy; 2024 Ximena Flores</p>
+    </footer> 
+  </body>
+</html>
