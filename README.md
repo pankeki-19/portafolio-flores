@@ -13,3 +13,5 @@ Este es el portafolio de:
 	|				     |
 	|------------------------------------|
 
+
+Este portafolio tiene de la práctica 2 a la 5
